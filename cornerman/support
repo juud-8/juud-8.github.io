@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - CornerMan</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #e4e4e7;
+            background: #09090b;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #FFD700;
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+        }
+
+        h2 {
+            color: #FFD700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #a1a1aa;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: #a1a1aa;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: #FFD700;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .faq-item {
+            background: rgba(255, 215, 0, 0.05);
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            padding: 1rem 1.5rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .faq-q {
+            color: #FFD700;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(184, 134, 11, 0.1));
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            padding: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">🥊</div>
+    <h1>Support</h1>
+    <p>Need help with CornerMan? We're here to help!</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <p class="faq-q">How do I generate a workout?</p>
+        <p>From the Home screen, tap "Generate Workout", select your preferences (duration, type, intensity), and let
+            our AI create a personalized training session.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">How do I restore my subscription?</p>
+        <p>Go to Settings → Restore Purchases. Your subscription will be automatically recognized if purchased with the
+            same Apple ID.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">How do I cancel my subscription?</p>
+        <p>Open iOS Settings → [Your Name] → Subscriptions → CornerMan → Cancel Subscription. Your access continues
+            until the end of your billing period.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Is my data private?</p>
+        <p>Yes! Your workout data is stored locally on your device. We only use anonymized data to improve our AI. See
+            our <a href="privacy.html">Privacy Policy</a> for details.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">The AI isn't responding. What should I do?</p>
+        <p>Check your internet connection and try again. If the issue persists, restart the app or contact us.</p>
+    </div>
+
+    <div class="contact-box">
+        <h2 style="margin-top: 0;">Contact Us</h2>
+        <p>Can't find what you're looking for? Email us directly:</p>
+        <p><a href="mailto:support@cornerman.app"
+                style="font-size: 1.25rem; font-weight: bold;">support@cornerman.app</a></p>
+        <p style="margin-top: 1rem; color: #52525b;">We typically respond within 24-48 hours.</p>
+    </div>
+
+    <p style="margin-top: 3rem; text-align: center; color: #52525b;">
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms of Service</a> |
+        <a href="index.html">Home</a>
+    </p>
+</body>
+
+</html>
